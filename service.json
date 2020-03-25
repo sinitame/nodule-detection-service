@@ -1,0 +1,20 @@
+{
+   "name": "LungNoduleDetection",
+   "version": "0.1.0",
+   "keywords": [
+     "segmentation",
+     "lung", 
+     "nodules"
+   ],
+   "shortdesc": "Lung Nodule Detection Example",
+   "url":"test.fr",
+   "longdesc": "Given a LIDC chest CT-Scan, return a mask of the lung nodules of the patient",
+   "tags": [
+     {
+       "name": "Source",
+       "type": "MainImage",
+       "hint": "The anatomical image from which you want to warp the segmentation",
+       "required": true
+     }
+   ]
+ }
